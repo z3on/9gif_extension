@@ -1,0 +1,39 @@
+div.notification_9gif {
+  position: fixed !important;
+  left: 0;
+  top: -48px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+div.notification_9gif .notification_close {
+  display:inline-block;
+  color: #858585;
+  margin-left: 20px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+div.notification_9gif .notification_close:before {
+  content: '+';
+}
+
+div.notification_9gif a {
+  text-decoration: none;
+  transition: color 0.4s linear;
+}
+
+div.notification_9gif a:hover {
+  color: black;
+}
+
+header#top-nav {
+  position: relative;
+  z-index: 3;
+}
